@@ -1,0 +1,355 @@
+/* ==========================
+   Toronto Outdoor Festival
+   Main Stylesheet
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    color:#333;
+    background:#fafafa;
+}
+
+/* Navigation */
+
+header{
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:999;
+    background:rgba(255,255,255,.95);
+    backdrop-filter:blur(12px);
+    box-shadow:0 4px 20px rgba(0,0,0,.08);
+}
+
+.navbar{
+    max-width:1300px;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 40px;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:700;
+    color:#c1121f;
+}
+
+.nav-menu{
+    display:flex;
+    list-style:none;
+    gap:30px;
+}
+
+.nav-menu a{
+    text-decoration:none;
+    color:#333;
+    font-weight:500;
+    transition:.3s;
+}
+
+.nav-menu a:hover{
+    color:#c1121f;
+}
+
+.btn-primary{
+    background:#c1121f;
+    color:white;
+    padding:14px 28px;
+    border-radius:10px;
+    text-decoration:none;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn-primary:hover{
+    transform:translateY(-3px);
+    background:#9d0b16;
+}
+
+.btn-secondary{
+    border:2px solid white;
+    color:white;
+    padding:14px 28px;
+    border-radius:10px;
+    text-decoration:none;
+    margin-left:15px;
+    transition:.3s;
+}
+
+.btn-secondary:hover{
+    background:white;
+    color:#111;
+}
+
+/* Hero */
+
+.hero{
+    height:100vh;
+    background:
+        linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+        url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1800&q=80");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+}
+
+.hero-overlay{
+    width:100%;
+}
+
+.hero-content{
+    max-width:900px;
+    margin:auto;
+    padding:30px;
+}
+
+.subtitle{
+    letter-spacing:3px;
+    margin-bottom:20px;
+    color:#ffd166;
+    font-weight:600;
+}
+
+.hero h1{
+    font-size:64px;
+    line-height:1.1;
+    margin-bottom:25px;
+}
+
+.hero p{
+    font-size:22px;
+    line-height:1.8;
+}
+
+.hero-buttons{
+    margin-top:40px;
+}
+
+/* Sections */
+
+.container{
+    max-width:1100px;
+    margin:auto;
+}
+
+.about{
+    padding:110px 25px;
+    text-align:center;
+}
+
+.about h2{
+    font-size:40px;
+    color:#c1121f;
+    margin-bottom:20px;
+}
+
+.about p{
+    font-size:19px;
+    max-width:850px;
+    margin:auto;
+    line-height:1.8;
+}
+
+/* Stats */
+
+.stats{
+    background:white;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    text-align:center;
+    padding:80px 40px;
+    gap:25px;
+}
+
+.stat{
+    background:#fff;
+    padding:40px;
+    border-radius:16px;
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+}
+
+.stat h2{
+    color:#c1121f;
+    font-size:48px;
+}
+
+/* Featured */
+
+.featured{
+    padding:100px 40px;
+    background:#f3f3f3;
+}
+
+.featured h2{
+    text-align:center;
+    font-size:42px;
+    margin-bottom:60px;
+}
+
+.cards{
+    max-width:1200px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:30px;
+}
+
+.card{
+    background:white;
+    border-radius:16px;
+    padding:35px;
+    box-shadow:0 12px 25px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    margin-bottom:15px;
+    color:#c1121f;
+}
+
+/* Footer */
+
+footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+
+/* Responsive */
+
+@media(max-width:900px){
+
+.navbar{
+    flex-direction:column;
+    gap:20px;
+}
+
+.nav-menu{
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.hero h1{
+    font-size:42px;
+}
+
+.hero p{
+    font-size:18px;
+}
+
+.btn-secondary{
+    display:block;
+    margin:15px auto 0;
+}
+
+}
+<section class="pricing">
+
+<div class="container">
+
+<h2>Demo Booth Fees</h2>
+
+<p class="pricing-intro">
+The fees below are <strong>for demonstration purposes only</strong> and do not represent a real event.
+</p>
+
+<table class="pricing-table">
+
+<thead>
+<tr>
+<th>Vendor Type</th>
+<th>Space</th>
+<th>Demo Fee (CAD)</th>
+<th>Includes</th>
+</tr>
+</thead>
+
+<tbody>
+
+<tr>
+<td>Food Booth</td>
+<td>10 × 10 ft</td>
+<td>$650</td>
+<td>Booth space, vendor passes, listing on website</td>
+</tr>
+
+<tr>
+<td>Premium Food Booth</td>
+<td>10 × 20 ft</td>
+<td>$950</td>
+<td>Corner location, electricity, vendor passes</td>
+</tr>
+
+<tr>
+<td>Food Truck</td>
+<td>20 × 20 ft</td>
+<td>$1,200</td>
+<td>Truck space, power access, listing, vendor passes</td>
+</tr>
+
+<tr>
+<td>Beverage Vendor</td>
+<td>10 × 10 ft</td>
+<td>$550</td>
+<td>Booth space and website listing</td>
+</tr>
+
+<tr>
+<td>Dessert Vendor</td>
+<td>10 × 10 ft</td>
+<td>$600</td>
+<td>Booth space and vendor passes</td>
+</tr>
+
+<tr>
+<td>Coffee Vendor</td>
+<td>10 × 10 ft</td>
+<td>$575</td>
+<td>Booth space and electrical access</td>
+</tr>
+
+</tbody>
+
+</table>
+
+<div class="pricing-note">
+
+<h3>What's Included (Demo)</h3>
+
+<ul>
+<li>✔ Festival booth space</li>
+<li>✔ Vendor passes</li>
+<li>✔ Website listing</li>
+<li>✔ Overnight security (demo)</li>
+<li>✔ Waste collection (demo)</li>
+<li>✔ Access to vendor support team (demo)</li>
+</ul>
+
+<p><strong>Disclaimer:</strong> This is a fictional demonstration website. All fees, services, and event details are examples only.</p>
+
+</div>
+
+</div>
+
+</section>
