@@ -1,0 +1,32 @@
+Toronto-Outdoor Art Fair/
+│
+├── index.html
+├── artists.html
+├── food-vendors.html
+├── apply.html
+├── tickets.html
+├── schedule.html
+├── visit.html
+├── gallery.html
+├── faq.html
+├── contact.html
+│
+├── css/
+│   ├── style.css
+│   ├── responsive.css
+│   └── animations.css
+│
+├── js/
+│   ├── main.js
+│   ├── countdown.js
+│   └── forms.js
+│
+├── images/
+│   ├── hero/
+│   ├── artists/
+│   ├── food/
+│   ├── gallery/
+│   ├── sponsors/
+│   └── icons/
+│
+└── favicon.ico

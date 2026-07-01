@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Toronto Outdoor Art Fair</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<script src="https://kit.fontawesome.com/your-kit-id.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="announcement-bar">
+
+<span>
+🎉 Applications are now open for Artists & Food Vendors • Early Bird Deadline: March 31, 2026
+</span>
+
+<a href="apply.html">
+Apply Today
+</a>
+
+</div>
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+
+Toronto Outdoor Art Fair
+
+</div>
+
+<ul class="menu">
+
+<li><a href="#">Home</a></li>
+
+<li><a href="artists.html">Artists</a></li>
+
+<li><a href="food-vendors.html">Food Vendors</a></li>
+
+<li><a href="schedule.html">Schedule</a></li>
+
+<li><a href="visit.html">Visit</a></li>
+
+<li><a href="gallery.html">Gallery</a></li>
+
+<li><a href="faq.html">FAQ</a></li>
+
+<li><a href="contact.html">Contact</a></li>
+
+<li>
+
+<a class="apply-button"
+
+href="apply.html">
+
+Apply
+
+</a>
+
+</li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div class="hero-overlay"></div>
+
+<div class="hero-content">
+
+<span class="hero-tag">
+
+TORONTO'S PREMIER SUMMER FESTIVAL
+
+</span>
+
+<h1>
+
+Toronto Outdoor Art Fair 2026
+
+</h1>
+
+<p>
+
+Experience four unforgettable days of original Canadian art, gourmet food, live entertainment, cultural performances and interactive experiences in the heart of Toronto.
+
+</p>
+
+<div class="hero-date">
+
+📅 July 10 – July 12, 2026
+
+</div>
+
+<div class="hero-location">
+
+📍 Nathan Phillips Square • Toronto, Ontario
+
+</div>
+
+<div class="buttons">
+
+<a href="tickets.html">
+
+Buy Tickets
+
+</a>
+
+<a href="apply.html">
+
+Apply as a Vendor
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="countdown">
+
+<h2>
+
+Countdown to Opening Day
+
+</h2>
+
+<div id="timer">
+
+00 Days
+
+00 Hours
+
+00 Minutes
+
+00 Seconds
+
+</div>
+
+</section>
+
+<section class="highlights">
+
+<h2>
+
+Festival Highlights
+
+</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>400+</h3>
+
+<p>Artists</p>
+
+</div>
+
+<div class="card">
+
+<h3>60+</h3>
+
+<p>Food Vendors</p>
+
+</div>
+
+<div class="card">
+
+<h3>4</h3>
+
+<p>Festival Days</p>
+
+</div>
+
+<div class="card">
+
+<h3>50,000+</h3>
+
+<p>Visitors Expected</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="vendors">
+
+<h2>
+
+Vendor Applications
+
+</h2>
+
+<div class="vendor-grid">
+
+<div class="vendor-card">
+
+<h3>
+
+Artist Booth
+
+</h3>
+
+<p>
+
+Applications Now Open
+
+</p>
+
+<a href="artists.html">
+
+Apply as Artist
+
+</a>
+
+</div>
+
+<div class="vendor-card">
+
+<h3>
+
+Food Vendor
+
+</h3>
+
+<p>
+
+Applications Now Open
+
+</p>
+
+<a href="food-vendors.html">
+
+Apply as Food Vendor
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<h2>
+
+Follow Us
+
+</h2>
+
+<div class="social">
+
+<a href="#">Facebook</a>
+
+<a href="#">Instagram</a>
+
+<a href="#">TikTok</a>
+
+<a href="#">X</a>
+
+<a href="#">YouTube</a>
+
+<a href="#">LinkedIn</a>
+
+</div>
+
+<p>
+
+© 2026 Toronto Outdoor Art Fair
+
+</p>
+
+<footer>
+
+<div class="footer-container">
+
+<div class="footer-column">
+
+<h3>Toronto Art & Food Exhibition</h3>
+
+<p>
+Celebrating Canadian artists, culinary excellence and culture through an unforgettable four-day summer festival.
+</p>
+
+</div>
+
+<div class="footer-column">
+
+<h3>Quick Links</h3>
+
+<ul>
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="artists.html">Artists</a></li>
+
+<li><a href="food-vendors.html">Food Vendors</a></li>
+
+<li><a href="apply.html">Apply</a></li>
+
+<li><a href="schedule.html">Schedule</a></li>
+
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+</div>
+
+<div class="footer-column">
+
+<h3>Contact</h3>
+
+<p>📍 Nathan Phillips Square</p>
+
+<p>Toronto, Ontario</p>
+
+<p>info@torontoartfood.ca</p>
+
+<p>(416) 555-1234</p>
+
+</div>
+
+<div class="footer-column">
+
+<h3>Follow Us</h3>
+
+<div class="footer-social">
+
+<a href="#">Facebook</a>
+
+<a href="#">Instagram</a>
+
+<a href="#">TikTok</a>
+
+<a href="#">YouTube</a>
+
+<a href="#">LinkedIn</a>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="footer-bottom">
+
+<p>
+
+© 2026 Toronto Art & Food Exhibition. All Rights Reserved.
+
+</p>
+
+</div>
+
+</footer>
